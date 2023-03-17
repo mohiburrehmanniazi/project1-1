@@ -1,0 +1,87 @@
+.fmain{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 70vh;
+     }
+    
+
+#box1{
+    margin-left: 150px;
+    margin-top: 7vh;
+    flex-grow: 1;
+    width: 300px;
+}
+
+#box2{
+    flex-grow: 1;
+   width: 300px;
+   margin-top: 7vh;
+   margin-left: 150px;
+   
+}
+#box3{
+    flex-grow: 1;
+    width: 300px;
+    margin-top: 7vh;
+    margin-left: 150px;
+}
+#box4{
+    flex-grow: 1;
+    width: 300px;
+    margin-top: 7vh;
+    margin-left: 150px;
+}
+    .fbtn{
+        background-color: 
+        rgb(128, 178, 232);
+        width:170px ;
+        height: 55px;
+        color: white;
+        border-radius: 35px;
+        font-size: large;
+    }
+
+#fpics{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    margin-top: 55vh;
+    margin-left: -50%;
+    color: white;
+}
+
+
+#img1{height: 20px;
+padding: 5px;}
+#img2{height: 20px;
+    padding: 5px;}
+#img3{height:  20px;
+    padding: 5px;}
+#img4{height: 20px;
+    padding: 5px;}
+
+    .p1{margin-top: 4%;
+    margin-left: -28%;}
+
+
+   .p1{margin-left: -50%;}
+
+   p:hover{
+    color: blue;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.fbtn:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+
+
